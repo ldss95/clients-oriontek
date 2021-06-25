@@ -7,7 +7,7 @@ La documentacion del API es generada con [Swagger JsDoc](https://www.npmjs.com/p
 npm run dev
 ```
 
-La base de datos y las tablas se crean de manera automatica siempre y cuando las variables de entorno hayan sido establaecidas previamente.
+La base de datos debe haber sido creada previo a la ejecucion del proyecto. La estructura de las tablas sera creada por el proyeto.
 
 ## Variables de entorno  
   

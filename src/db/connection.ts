@@ -1,11 +1,5 @@
 import { Sequelize } from 'sequelize';
 
-import { createDatabase } from './create';
-// Crea la base de datos si no existe
-(async () => {
-	await createDatabase()
-})()
-
 const {
 	DB_HOST,
 	DB_USER,
